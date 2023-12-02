@@ -14,7 +14,6 @@ mkdir -p $FOLDER_NAME
 
 # Create the files inside the folder
 cp ./newDayTemplate.js $FOLDER_NAME/index.js
-cp ./newDayTemplate.test.js $FOLDER_NAME/index.test.js
 touch $FOLDER_NAME/input.txt
 touch $FOLDER_NAME/README.md
 

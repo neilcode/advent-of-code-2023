@@ -1,8 +1,5 @@
-import { getInput } from '../utils/input.js';
+const fs = require('fs')
+const filename = '0x/input.txt' //update this path
+const input = fs.readFileSync(filename).toString('utf8');
 
-export function dayX(input) {
-}
-
-if(process.env.NODE_ENV !== 'test') {
-  const input = getInput(import.meta.url)
-}
+// const _ = require('lodash')
